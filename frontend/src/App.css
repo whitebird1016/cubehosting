@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	font-family: oxygen,
+		Segoe UI,
+		Tahoma,
+		Geneva,
+		Verdana,
+		sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, div ,ul,li{
+	padding: 0;
+	margin: 0;
+}
+a {
+  	text-decoration: none;
+	color: #fffc;
+}
+button {
+	outline: none;
+  border: none;
+}
+.basic-single  {
+	font-size: 16px;
+	line-height: 37px;
+	width: 100%;
+	color: white !important;
+}
+
+.basic-single .select__control {
+	background-color: #272727 !important;
+	border-radius: 5px ;
+	color: white;
+}
+.basic-single .select__menu {
+	background-color: #272727 !important;
+	border-radius: 5px ;
+	color: white;
+}
+.basic-single .select__single-value  {
+	color: white;
+}
+.basic-single .select__menu-list  {
+color: white;
+}
